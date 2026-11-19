@@ -1,0 +1,16 @@
+# Visual Studio temporary files
+.vs/
+bin/
+obj/
+*.dtproj.user
+*.suo
+*.user
+
+# Build outputs
+*.ispac
+
+# Temporary files
+*.tmp
+*.log
+# Old Git repository backup
+.git_backup/

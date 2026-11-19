@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.ShopEaseDB"
+  DTS:DTSID="{3E51C4AA-3289-4515-9383-3F3917A6EA9F}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::DatabaseName]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::ServerName]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=ShopEaseDB;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-ShopEase_Extraction-{3E51C4AA-3289-4515-9383-3F3917A6EA9F}localhost.ShopEaseDB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
